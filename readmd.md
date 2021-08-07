@@ -1,1 +1,0 @@
-contact emergency services, saving paramount amounts of time, as budding fires grow quickly. accessible, effective, and innovative, this product is truly one of the defining pieces of technology in humanity's ongoing fight against climate change.
