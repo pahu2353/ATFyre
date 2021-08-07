@@ -58,3 +58,12 @@ h1 {
 .footer p {
     padding: 2%;
 }
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
