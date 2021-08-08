@@ -67,3 +67,31 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+@media only screen and (max-width: 768px) {
+
+    h1 {
+        font-size: 2em;
+    }
+
+    .nodes {
+        font-size: 2em;
+    }
+    
+    .mother {
+        font-size: 2em;
+    }
+
+    .status {
+        font-size: 2em;
+    }
+
+    .footer p {
+        font-size: 0.8em;
+    }
+
+    #forest {
+        font-size: 2em;
+    }
+
+  }
