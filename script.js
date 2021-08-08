@@ -34,7 +34,7 @@ let alert5 = false;
 
 // the chance of a forest fire (will probably be extremely elevated for the demonstration)
 function ChanceFire() {
-    return Math.floor((Math.random() * 1000) + 1);
+    return Math.floor((Math.random() * 10000) + 1);
 } // end of ChanceFire
 
 // there is a fire
@@ -49,7 +49,7 @@ function NoFire(min, max) {
 
 // gets temperatures
 setInterval(function getTemperatures() {
-        if (ChanceFire() > 999) { // chances of a fire (currently 0.01%), which is a bit too high
+        if (ChanceFire() > 9999) { // chances of a fire (currently 0.01%), which is a bit too high
             chances = Math.floor((Math.random() * 20) + 1); 
             switch(chances){
                 case 1:
