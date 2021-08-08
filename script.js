@@ -126,7 +126,7 @@ setInterval(function getTemperatures() {
             k = NoFire(k - 0.0005, k + 0.0005);
             l = NoFire(l - 0.0005, l + 0.0005);
             m = NoFire(m - 0.0005, m + 0.0005);
-            n = NoFire(m - 0.0005, m + 0.0005);
+            n = NoFire(n - 0.0005, n + 0.0005);
             o = NoFire(o - 0.0005, o + 0.0005);
             p = NoFire(p - 0.0005, p + 0.0005);
             q = NoFire(q - 0.0005, q + 0.0005);
