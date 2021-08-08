@@ -284,7 +284,8 @@ setInterval(function getTemperatures() {
         }
         else if (b > 80){
             document.getElementById("status1").innerHTML = "Alert! This region is on fire! Fire-like temperatures have been recorded in Node 2.";
-        } else { // c > 80
+        } 
+        else if (c > 80){ 
             document.getElementById("status1").innerHTML = "Alert! This region is on fire! Fire-like temperatures have been recorded in Node 3.";
         }
     } // end of this monstrous if/else
@@ -314,7 +315,8 @@ setInterval(function getTemperatures() {
         } 
         else if (g > 80){
             document.getElementById("status2").innerHTML = "Alert! This region is on fire! Fire-like temperatures have been recorded in Node 4.";
-        } else { // h > 80
+        } 
+        else if (h > 80){ 
             document.getElementById("status2").innerHTML = "Alert! This region is on fire! Fire-like temperatures have been recorded in Node 5.";
         }
     } // if
@@ -341,7 +343,8 @@ setInterval(function getTemperatures() {
         }
         else if (k > 80) {
             document.getElementById("status3").innerHTML = "Alert! This region is on fire! Fire-like temperatures have been recorded in Node 3.";
-        } else { // l > 80
+        } 
+        else if (l > 80){ 
             document.getElementById("status3").innerHTML = "Alert! This region is on fire! Fire-like temperatures have been recorded in Node 4.";
         }
     } // if
@@ -372,7 +375,8 @@ setInterval(function getTemperatures() {
         }
         else if (n > 80){
             document.getElementById("status4").innerHTML = "Alert! This region is on fire! Fire-like temperatures have been recorded in Node 2.";
-        } else { // o > 80
+        } 
+        else if (o > 80){ 
             document.getElementById("status4").innerHTML = "Alert! This region is on fire! Fire-like temperatures have been recorded in Node 3.";
         }
     } // if
@@ -402,7 +406,8 @@ setInterval(function getTemperatures() {
         } 
         else if (s > 80){
             document.getElementById("status5").innerHTML = "Alert! This region is on fire! Fire-like temperatures have been recorded in Node 4.";
-        } else { // t > 80
+        } 
+        else if (t > 80){ 
             document.getElementById("status5").innerHTML = "Alert! This region is on fire! Fire-like temperatures have been recorded in Node 5.";
         }
     } // if
